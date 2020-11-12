@@ -1,0 +1,17 @@
+    1  git clone git@github.com:LucasBGarcia/AvaliacaoFinalEng.git
+    2  ls
+    3  cd AvaliacaoFinalEng/
+    4  ls
+    5  git checkout -b feature/mult
+    6  code .
+    7  git stats
+    8  git status
+    9  git add .
+   10  git commit -m ":sparkles: Cria função multiplicação"
+   11  git push
+   12      git push --set-upstream origin feature/mult
+   13  git checkout master
+   14  code .
+   15  git pull git@github.com:LucasBGarcia/AvaliacaoFinalEng.git
+   16  ls
+   17  history > LOG_RamonRocha
