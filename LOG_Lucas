@@ -1,0 +1,18 @@
+    1  git pull
+    2  git checkout -b feature/soma-subtracao
+    3  code .
+    4  git add Calculadora.js
+    5  git commit -m ":sparkles: Cria função soma e subtração"
+    6  git push
+    7  git push --set-upstream origin feature/soma-subtracao
+    8  git checkout master
+    9  ls
+   10  touch historico.txt
+   11  ls
+   12  history > log historico
+   13  git pull
+   14  git tag -a 1.0.0 -m "version 1.0.0"
+   15  git tag
+   16  git push
+   17  git push https://github.com/LucasBGarcia/AvaliacaoFinalEng 1.0.0
+   18  history > LOG_Lucas
